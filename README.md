@@ -1,4 +1,6 @@
-# 🔗🗺📦 *L10NLite* (_A lightweight [L10n ↗](https://en.wikipedia.org/wiki/Language_localisation) tool suitable for backend use_)
+# 🔗🗺📦 *L10NLite* 
+
+**_A lightweight [L10n ↗](https://en.wikipedia.org/wiki/Language_localisation) tool suitable for backend use_**
 
 This is a lightweight localization method designed to simplify the localization process for backend programs and improve
 localization efficiency. It provides a streamlined server-side localization solution.
