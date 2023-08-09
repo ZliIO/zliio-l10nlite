@@ -1,7 +1,5 @@
 package com.zliio.l10nlite.core;
 
-import java.util.Objects;
-
 /**
  * L10nKey.
  *
@@ -15,7 +13,7 @@ public final class L10nKey {
 
     private L10nKey(String message, String lang) {
         this.message = message;
-        this.lang = lang;
+        this.lang = lang.toLowerCase();
         this.hashCode = (this.message + this.lang).hashCode();
     }
 
