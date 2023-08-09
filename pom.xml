@@ -17,6 +17,7 @@
         <module>l10nlite-all</module>
         <module>l10nlite-demo</module>
         <module>l10nlite-demo/l10nlite-demo-quickstart</module>
+        <module>l10nlite-loader/l10nlite-loader-unload</module>
     </modules>
 
     <properties>
