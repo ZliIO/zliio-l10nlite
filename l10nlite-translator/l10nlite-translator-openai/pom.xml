@@ -5,28 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.zliio.l10nlite</groupId>
-        <artifactId>l10nlite</artifactId>
+        <artifactId>l10nlite-translator</artifactId>
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>l10nlite-translator</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>l10nlite-translator-openai</module>
-    </modules>
+    <artifactId>l10nlite-translator-openai</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.zliio.l10nlite</groupId>
-            <artifactId>l10nlite-translator-common</artifactId>
-            <version>${parent.version}</version>
-        </dependency>
-    </dependencies>
 
 </project>
